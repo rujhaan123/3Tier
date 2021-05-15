@@ -10,7 +10,6 @@ variable "web_os_password" {}
 variable "app_host_name"{}
 variable "app_username" {}
 variable "app_os_password" {}
-variable "primary_database" {}
-variable "primary_database_admin" {}
-variable "primary_database_password" {}
-variable "primary_database_version" {}
+variable "db_host_name"{}
+variable "db_username" {}
+variable "db_os_password" {}
