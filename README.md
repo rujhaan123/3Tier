@@ -11,7 +11,7 @@ This is a three tier Azure infra setup using Terraform  namely web, app and DB.
 8. security.tf for setting up of security such as creation of nsg and allowing/blocking inbound/outbound traffic
 
 **Deployment**
-Step1: terraform init-to initialize working directory.
-Step2: terraform plan: used to create execution plan.
-Step3: terraform validate: validates the configuration files in a directory.
-Step4: terraform apply: used to apply changes.
+1.terraform init-to initialize working directory.
+2.terraform plan: used to create execution plan.
+3.terraform validate: validates the configuration files in a directory.
+4.terraform apply: used to apply changes.
